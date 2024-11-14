@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "jtmcraft:block/logic_gate_blank",
+      "y": 270
+    },
+
+    "facing=north": {
+      "model": "jtmcraft:block/logic_gate_blank",
+      "y": 180
+    },
+
+    "facing=south": {
+      "model": "jtmcraft:block/logic_gate_blank"
+    },
+
+    "facing=west": {
+      "model": "jtmcraft:block/logic_gate_blank",
+      "y": 90
+    }
+  }
+}

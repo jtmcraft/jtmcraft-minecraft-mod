@@ -1,0 +1,12 @@
+{
+  "name": "Logic Gates Intro",
+  "icon": "jtmcraft:logic_gate_blank",
+  "category": "jtmcraft:logic_gates_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Inputs are boolean. A non-zero input signal strength is called 'high' and a zero signal strength is called 'low'. If the output is high, then the signal strength is 15. If the output is low, then the signal strength is zero. The following pages describe each logic gate available along with their truth table where we will use 0 for 'low' and 1 for 'high'."
+    }
+  ],
+  "priority": true
+}

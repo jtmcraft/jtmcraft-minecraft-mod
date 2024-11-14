@@ -1,0 +1,10 @@
+{
+  "music_disc_ode_to_joy": {
+    "sounds": [
+      {
+        "name": "jtmcraft:music_disc_ode_to_joy",
+        "stream": true
+      }
+    ]
+  }
+}

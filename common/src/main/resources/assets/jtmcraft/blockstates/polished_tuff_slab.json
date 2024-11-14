@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "jtmcraft:block/polished_tuff_slab"
+    },
+    "type=double": {
+      "model": "jtmcraft:block/polished_tuff"
+    },
+    "type=top": {
+      "model": "jtmcraft:block/polished_tuff_slab_top"
+    }
+  }
+}

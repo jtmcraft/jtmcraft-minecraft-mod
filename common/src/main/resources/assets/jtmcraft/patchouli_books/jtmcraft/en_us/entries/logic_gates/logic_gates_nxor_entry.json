@@ -1,0 +1,11 @@
+{
+  "name": "Logic Gate: N(ot)XOR",
+  "icon": "jtmcraft:logic_gate_nxor",
+  "category": "jtmcraft:logic_gates_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If inputs are the same, then output is high.$(p)0 0 => 1$(br)0 1 => 0$(br)1 0 => 0$(br)1 1 => 1"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Logic Gate: XOR",
+  "icon": "jtmcraft:logic_gate_xor",
+  "category": "jtmcraft:logic_gates_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If inputs are different, then output is high.$(p)0 0 => 0$(br)0 1 => 1$(br)1 0 => 1$(br)1 1 => 0"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jtmcraft:item/logic_gate_blank"
+  }
+}

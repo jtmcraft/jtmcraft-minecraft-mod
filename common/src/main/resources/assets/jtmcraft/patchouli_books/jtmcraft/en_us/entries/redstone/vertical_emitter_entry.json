@@ -1,0 +1,11 @@
+{
+  "name": "Vertical Emitter",
+  "icon": "jtmcraft:redstone_vertical_emitter",
+  "category": "jtmcraft:redstone_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The blocks emits a full strength signal vertically when powered."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Redstone Lantern",
+  "icon": "jtmcraft:redstone_lantern",
+  "category": "jtmcraft:redstone_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Similar to a redstone lamp except that it can detect redstone power wirelessly above or below it within 16 blocks."
+    }
+  ]
+}

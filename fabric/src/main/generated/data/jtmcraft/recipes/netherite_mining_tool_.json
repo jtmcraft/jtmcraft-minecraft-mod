@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:netherite_axe"
+    },
+    "P": {
+      "item": "minecraft:netherite_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:netherite_shovel"
+    }
+  },
+  "pattern": [
+    "APS"
+  ],
+  "result": {
+    "item": "jtmcraft:netherite_mining_tool"
+  },
+  "show_notification": true
+}

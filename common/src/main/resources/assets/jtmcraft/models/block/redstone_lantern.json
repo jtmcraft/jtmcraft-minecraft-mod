@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "jtmcraft:block/redstone_lantern",
+    "east": "jtmcraft:block/redstone_lantern",
+    "north": "jtmcraft:block/redstone_lantern",
+    "particle": "jtmcraft:block/redstone_lantern",
+    "south": "jtmcraft:block/redstone_lantern",
+    "up": "jtmcraft:block/redstone_lantern",
+    "west": "jtmcraft:block/redstone_lantern"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:stone_axe"
+    },
+    "P": {
+      "item": "minecraft:stone_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stone_shovel"
+    }
+  },
+  "pattern": [
+    "APS"
+  ],
+  "result": {
+    "item": "jtmcraft:stone_mining_tool"
+  },
+  "show_notification": true
+}

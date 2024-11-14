@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "jtmcraft:block/redstone_vertical_emitter"
+    },
+    "powered=true": {
+      "model": "jtmcraft:block/redstone_vertical_emitter_on"
+    }
+  }
+}

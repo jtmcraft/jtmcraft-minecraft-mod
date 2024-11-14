@@ -1,0 +1,11 @@
+{
+  "name": "Features",
+  "icon": "jtmcraft:diamond_mining_tool",
+  "category": "jtmcraft:mining_tool_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The mining tool has all the features of axes (stripping and scraping), pickaxes, and shovels (digging and flattening). It can also mine the same as a hoe, but it cannot create farmland."
+    }
+  ]
+}

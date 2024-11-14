@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "jtmcraft:block/redstone_lantern"
+    },
+    "lit=true": {
+      "model": "jtmcraft:block/redstone_lantern_on"
+    }
+  }
+}

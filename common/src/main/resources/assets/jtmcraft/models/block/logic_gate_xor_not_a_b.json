@@ -1,0 +1,84 @@
+
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:block/comparator",
+    "slab": "minecraft:block/smooth_stone",
+    "top": "jtmcraft:block/logic_gate_xor_not_a_b"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        2,
+        16
+      ],
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#slab",
+          "cullface": "down"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#top"
+        },
+        "north": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#slab",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#slab",
+          "cullface": "south"
+        },
+        "west": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#slab",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            0,
+            14,
+            16,
+            16
+          ],
+          "texture": "#slab",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

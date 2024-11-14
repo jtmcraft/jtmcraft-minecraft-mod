@@ -1,0 +1,11 @@
+{
+  "name": "Logic Gate: AND",
+  "icon": "jtmcraft:logic_gate_and",
+  "category": "jtmcraft:logic_gates_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If both inputs are high, then output is high.$(p)0 0 => 0$(br)0 1 => 0$(br)1 0 => 0$(br)1 1 => 1"
+    }
+  ]
+}

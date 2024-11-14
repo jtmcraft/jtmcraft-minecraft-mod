@@ -1,0 +1,11 @@
+{
+  "name": "Motion Detector",
+  "icon": "jtmcraft:motion_detector",
+  "category": "jtmcraft:redstone_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The block actually detects more than motion (same as skulk) within 6 blocks and emits a full strength signal for a few seconds."
+    }
+  ]
+}

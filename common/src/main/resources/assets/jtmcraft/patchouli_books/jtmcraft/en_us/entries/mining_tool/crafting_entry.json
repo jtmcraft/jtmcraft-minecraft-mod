@@ -1,0 +1,11 @@
+{
+  "name": "Crafting",
+  "icon": "minecraft:crafting_table",
+  "category": "jtmcraft:mining_tool_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The mining tool can be crafted from an axe, pickaxe, and shovel of the same material (wooden, stone, iron, golden, diamond, or netherite). Place the items in a horizontal row: axe, pickaxe, shovel."
+    }
+  ]
+}

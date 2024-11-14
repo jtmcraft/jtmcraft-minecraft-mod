@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "facing=east,motion_detector_state=waiting": {
+      "model": "jtmcraft:block/motion_detector",
+      "y": 270
+    },
+    "facing=east,motion_detector_state=activated": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 270
+    },
+    "facing=east,motion_detector_state=idling": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 270
+    },
+    "facing=north,motion_detector_state=waiting": {
+      "model": "jtmcraft:block/motion_detector",
+      "y": 180
+    },
+    "facing=north,motion_detector_state=activated": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 180
+    },
+    "facing=north,motion_detector_state=idling": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 180
+    },
+    "facing=south,motion_detector_state=waiting": {
+      "model": "jtmcraft:block/motion_detector"
+    },
+    "facing=south,motion_detector_state=activated": {
+      "model": "jtmcraft:block/motion_detector_on"
+    },
+    "facing=south,motion_detector_state=idling": {
+      "model": "jtmcraft:block/motion_detector_on"
+    },
+    "facing=west,motion_detector_state=waiting": {
+      "model": "jtmcraft:block/motion_detector",
+      "y": 90
+    },
+    "facing=west,motion_detector_state=activated": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 90
+    },
+    "facing=west,motion_detector_state=idling": {
+      "model": "jtmcraft:block/motion_detector_on",
+      "y": 90
+    }
+  }
+}

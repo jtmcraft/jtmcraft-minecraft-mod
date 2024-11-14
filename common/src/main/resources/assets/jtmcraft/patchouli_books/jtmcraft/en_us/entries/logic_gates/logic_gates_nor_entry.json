@@ -1,0 +1,11 @@
+{
+  "name": "Logic Gate: N(ot)OR",
+  "icon": "jtmcraft:logic_gate_nor",
+  "category": "jtmcraft:logic_gates_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "If both inputs are low, then output is high.$(p)0 0 => 1$(br)0 1 => 0$(br)1 0 => 0$(br)1 1 => 0"
+    }
+  ]
+}

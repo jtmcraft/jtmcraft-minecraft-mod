@@ -1,0 +1,5 @@
+{
+  "name": "Logic Gates",
+  "description": "Logic gates are used to controller whether to emit a redstone signal out of the front based on the state of the two side inputs.",
+  "icon": "jtmcraft:logic_gate_blank"
+}

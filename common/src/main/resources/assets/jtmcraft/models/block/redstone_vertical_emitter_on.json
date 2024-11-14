@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "jtmcraft:block/redstone_vertical_emitter_up_down_on",
+    "east": "jtmcraft:block/redstone_vertical_emitter_on",
+    "north": "jtmcraft:block/redstone_vertical_emitter_on",
+    "particle": "jtmcraft:block/redstone_vertical_emitter_on",
+    "south": "jtmcraft:block/redstone_vertical_emitter_on",
+    "up": "jtmcraft:block/redstone_vertical_emitter_up_down_on",
+    "west": "jtmcraft:block/redstone_vertical_emitter_on"
+  }
+}

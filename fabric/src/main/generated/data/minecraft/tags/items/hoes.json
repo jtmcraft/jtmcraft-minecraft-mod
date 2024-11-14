@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jtmcraft:wooden_mining_tool",
+    "jtmcraft:stone_mining_tool",
+    "jtmcraft:iron_mining_tool",
+    "jtmcraft:golden_mining_tool",
+    "jtmcraft:diamond_mining_tool",
+    "jtmcraft:netherite_mining_tool"
+  ]
+}

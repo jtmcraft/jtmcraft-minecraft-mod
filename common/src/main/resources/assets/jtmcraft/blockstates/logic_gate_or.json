@@ -1,0 +1,127 @@
+{
+  "variants": {
+    "facing=east,logic_gate_state=a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=not_a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=not_a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=not_a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 270
+    },
+    "facing=east,logic_gate_state=not_a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 270
+    },
+
+    "facing=north,logic_gate_state=a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=not_a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=not_a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=not_a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 180
+    },
+    "facing=north,logic_gate_state=not_a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 180
+    },
+
+    "facing=south,logic_gate_state=a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_b"
+    },
+    "facing=south,logic_gate_state=a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b"
+    },
+    "facing=south,logic_gate_state=not_a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b"
+    },
+    "facing=south,logic_gate_state=not_a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b"
+    },
+    "facing=south,logic_gate_state=a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_b"
+    },
+    "facing=south,logic_gate_state=a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b"
+    },
+    "facing=south,logic_gate_state=not_a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b"
+    },
+    "facing=south,logic_gate_state=not_a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b"
+    },
+
+    "facing=west,logic_gate_state=a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=not_a_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=not_a_not_b,powered=false": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_a_not_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=not_a_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_b",
+      "y": 90
+    },
+    "facing=west,logic_gate_state=not_a_not_b,powered=true": {
+      "model": "jtmcraft:block/logic_gate_or_not_a_not_b",
+      "y": 90
+    }
+  }
+}

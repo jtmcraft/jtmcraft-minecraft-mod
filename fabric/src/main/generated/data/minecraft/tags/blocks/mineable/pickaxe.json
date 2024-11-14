@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "jtmcraft:redstone_vertical_emitter",
+    "jtmcraft:redstone_lantern",
+    "jtmcraft:rainbow_block",
+    "jtmcraft:ellipse_stone"
+  ]
+}

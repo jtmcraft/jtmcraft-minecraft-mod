@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "R",
+    "S",
+    "R"
+  ],
+  "result": {
+    "item": "jtmcraft:redstone_vertical_emitter"
+  },
+  "show_notification": true
+}

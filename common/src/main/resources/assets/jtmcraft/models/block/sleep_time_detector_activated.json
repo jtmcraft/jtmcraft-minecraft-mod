@@ -1,0 +1,7 @@
+{
+  "parent": "jtmcraft:block/template_sleep_time_detector",
+  "textures": {
+    "side": "jtmcraft:block/sleep_time_detector_side",
+    "top": "jtmcraft:block/sleep_time_detector_activated"
+  }
+}

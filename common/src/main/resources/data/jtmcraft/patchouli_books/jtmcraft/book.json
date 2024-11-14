@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "name": "jtmcraft",
+  "landing_text": "A guide to the jtmcraft mod.",
+  "creative_tab": "jtmcraft:jtmcraft_group",
+  "use_resource_pack": true
+}

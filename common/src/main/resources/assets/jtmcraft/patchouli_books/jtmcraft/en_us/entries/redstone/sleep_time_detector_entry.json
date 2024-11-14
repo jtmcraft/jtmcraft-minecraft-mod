@@ -1,0 +1,11 @@
+{
+  "name": "Sleep Time Detector",
+  "icon": "jtmcraft:sleep_time_detector",
+  "category": "jtmcraft:redstone_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Emits a full strength signal when the player can sleep. Currently, the block never emits a signal when outside the overworld dimension."
+    }
+  ]
+}

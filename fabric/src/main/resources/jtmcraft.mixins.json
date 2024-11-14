@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "package": "net.fasilsmp.mods.jtmcraft.fabric.mixin",
+  "mixins": [
+    "EntityDataSaverMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

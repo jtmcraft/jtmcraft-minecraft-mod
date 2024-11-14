@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "sleep_time=false": {
+      "model": "jtmcraft:block/sleep_time_detector"
+    },
+    "sleep_time=true": {
+      "model": "jtmcraft:block/sleep_time_detector_activated"
+    }
+  }
+}

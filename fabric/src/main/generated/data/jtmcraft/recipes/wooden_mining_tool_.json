@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:wooden_axe"
+    },
+    "P": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "pattern": [
+    "APS"
+  ],
+  "result": {
+    "item": "jtmcraft:wooden_mining_tool"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+  "pattern": [
+    "APS"
+  ],
+  "result": {
+    "item": "jtmcraft:iron_mining_tool"
+  },
+  "show_notification": true
+}

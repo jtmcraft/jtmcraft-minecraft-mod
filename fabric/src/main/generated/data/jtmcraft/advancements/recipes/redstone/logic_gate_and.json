@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_logic_gate_blank": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jtmcraft:logic_gate_blank"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:logic_gate_and"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_logic_gate_blank",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:logic_gate_and"
+    ]
+  },
+  "sends_telemetry_event": false
+}
