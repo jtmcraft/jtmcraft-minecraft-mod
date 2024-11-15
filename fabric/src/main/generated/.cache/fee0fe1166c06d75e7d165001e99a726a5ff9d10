@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-27T13:44:30.2711926	jtmcraft/Recipes
+// 1.20.1	2024-11-14T20:31:57.4201336	jtmcraft/Recipes
 d8e1ad749f23bad75afaf6e7909aef973a3a56aa data\jtmcraft\advancements\recipes\tools\stone_mining_tool_.json
 ca3857c579d51fc65f6da13311b50ba70b8f7644 data\jtmcraft\recipes\logic_gate_and.json
 1cc5aea56178a26b3987b992b8adcac0f40ced09 data\jtmcraft\advancements\recipes\tools\netherite_mining_tool_.json
@@ -11,8 +11,8 @@ ff58aee4a3e9530bd441c65a9ab274b315da0175 data\jtmcraft\recipes\golden_mining_too
 9e4a6894436dede216ba9d3a0331a779f9a8f7b3 data\jtmcraft\recipes\sleep_time_detector.json
 c4558fc836e25290b105eacd2bff17d6b194434c data\jtmcraft\recipes\logic_gate_nxor.json
 31b0d3cdfb745e2a430b6066acd794cf2d840a68 data\jtmcraft\recipes\logic_gate_nand.json
-962461e28621048a8de8cb61918db0a47b83eb52 data\jtmcraft\advancements\recipes\tools\iron_mining_tool_.json
 a2823c45b01cb61785025083e32a71ec7bc52f6c data\jtmcraft\advancements\recipes\tools\diamond_mining_tool_.json
+962461e28621048a8de8cb61918db0a47b83eb52 data\jtmcraft\advancements\recipes\tools\iron_mining_tool_.json
 eb9ead331419c7a588fb3c34cc2ce2c434060116 data\jtmcraft\advancements\recipes\tools\wooden_mining_tool_.json
 15b9bdebf9e292b29d9521301835a8dc27dd50b3 data\jtmcraft\recipes\iron_mining_tool_.json
 a17311a9c7a6a8e5ca7025e148510f6be5732afc data\jtmcraft\recipes\diamond_mining_tool_.json
@@ -24,10 +24,10 @@ a25cb0da64141951c0b861cda33fa94f38f56115 data\jtmcraft\advancements\recipes\reds
 930d4e079060ca25d85d6466789a36dd849cac91 data\jtmcraft\advancements\recipes\redstone\logic_gate_blank.json
 43ff9be14de63c4606b1531d9f6a1e3d8645afb7 data\jtmcraft\advancements\recipes\redstone\logic_gate_nor.json
 b5385729ae95dfff34aa15ee8a172998d324d48b data\jtmcraft\recipes\motion_detector.json
-0d346587ad17e29087c44015cc389509b74891c8 data\jtmcraft\recipes\logic_gate_or.json
 ebe4b6745bab86714050e79a0ccae2b3ff11f64b data\jtmcraft\recipes\redstone_lantern.json
-814769e485d31c48d1c960cd793e658c19053442 data\jtmcraft\recipes\wooden_mining_tool_.json
+0d346587ad17e29087c44015cc389509b74891c8 data\jtmcraft\recipes\logic_gate_or.json
 e152a6b330636383eced60d35653b03a437c8b87 data\jtmcraft\advancements\recipes\redstone\motion_detector.json
+814769e485d31c48d1c960cd793e658c19053442 data\jtmcraft\recipes\wooden_mining_tool_.json
 df73ce6b0236c802faf46cba7f3130fc30826a0b data\jtmcraft\advancements\recipes\redstone\logic_gate_nand.json
 7c2ca2cdf9a46aa276c6dc9fb8e5800fee1487b0 data\jtmcraft\recipes\netherite_mining_tool_.json
 0d4cd505b4c57159e038fe896bc18ef2855e3266 data\jtmcraft\advancements\recipes\redstone\sleep_time_detector.json

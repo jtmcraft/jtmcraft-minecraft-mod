@@ -6,7 +6,10 @@ import net.minecraft.util.math.Direction;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.NotNull;
 
-public class BlockStateUtil {
+public final class BlockStateUtil {
+    private BlockStateUtil() {
+    }
+
     public static int getEmittedWeakRedstonePower(BlockView blockView, @NotNull BlockState blockState, BlockPos blockPos, Direction direction) {
         if (blockState.emitsRedstonePower()) {
             return blockState.getWeakRedstonePower(blockView, blockPos, direction);

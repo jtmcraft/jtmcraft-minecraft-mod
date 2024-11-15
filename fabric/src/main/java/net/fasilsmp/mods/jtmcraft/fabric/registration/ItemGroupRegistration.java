@@ -17,6 +17,7 @@ public class ItemGroupRegistration {
             "motion_detector",
             "redstone_vertical_emitter",
             "redstone_lantern",
+            "small_redstone_lantern",
             "sleep_time_detector",
             "rainbow_block",
             "ellipse_stone",

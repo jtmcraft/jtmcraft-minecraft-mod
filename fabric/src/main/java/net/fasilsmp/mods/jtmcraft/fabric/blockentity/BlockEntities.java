@@ -34,6 +34,10 @@ public class BlockEntities {
             registerBlockEntityType("redstone_vertical_emitter", RedstoneVerticalEmitterBlockEntity::new);
     public static final BlockEntityType<RedstoneLanternBlockEntity> REDSTONE_LANTERN_BE_TYPE =
             registerBlockEntityType("redstone_lantern", RedstoneLanternBlockEntity::new);
+
+    public static final BlockEntityType<SmallRedstoneLanternBlockEntity> SMALL_REDSTONE_LANTERN_BE_TYPE =
+            registerBlockEntityType("small_redstone_lantern", SmallRedstoneLanternBlockEntity::new);
+
     public static final BlockEntityType<SleepTimeDetectorBlockEntity> SLEEP_TIME_DETECTOR_BE_TYPE =
             registerBlockEntityType("sleep_time_detector", SleepTimeDetectorBlockEntity::new);
     public static final BlockEntityType<EllipseTracerBlockEntity> ELLIPSE_STONE_BE_TYPE =

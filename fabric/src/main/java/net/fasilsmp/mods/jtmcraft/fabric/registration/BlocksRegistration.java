@@ -2,6 +2,7 @@ package net.fasilsmp.mods.jtmcraft.fabric.registration;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fasilsmp.mods.jtmcraft.Jtmcraft;
+import net.fasilsmp.mods.jtmcraft.fabric.block.SmallRedstoneLanternBlock;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.EllipseStoneBlockMaker;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.JtmcraftBlockFactory;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.LogicGateAndBlockMaker;
@@ -16,8 +17,15 @@ import net.fasilsmp.mods.jtmcraft.fabric.block.factory.RainbowBlockMaker;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.RedstoneLanternMaker;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.RedstoneVerticalEmitterMaker;
 import net.fasilsmp.mods.jtmcraft.fabric.block.factory.SleepTimeDetectorMaker;
+import net.fasilsmp.mods.jtmcraft.fabric.block.factory.SmallRedstoneLanternMaker;
+import net.fasilsmp.mods.jtmcraft.fabric.blockentity.BaseRedstoneLanternBlockEntity;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.LanternBlock;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.piston.PistonBehavior;
+import net.minecraft.sound.BlockSoundGroup;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -33,6 +41,7 @@ public class BlocksRegistration {
             new BlockInformation("motion_detector", new MotionDetectorMaker(), Blocks.REPEATER),
             new BlockInformation("redstone_vertical_emitter", new RedstoneVerticalEmitterMaker(), Blocks.REDSTONE_BLOCK),
             new BlockInformation("redstone_lantern", new RedstoneLanternMaker(), Blocks.GLASS),
+            new BlockInformation("small_redstone_lantern", new SmallRedstoneLanternMaker(), Blocks.LANTERN),
             new BlockInformation("sleep_time_detector", new SleepTimeDetectorMaker(), Blocks.DAYLIGHT_DETECTOR),
 
             new BlockInformation("logic_gate_and", new LogicGateAndBlockMaker(), Blocks.REPEATER),

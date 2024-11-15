@@ -1,0 +1,11 @@
+{
+  "name": "Small Redstone Lantern",
+  "icon": "jtmcraft:small_redstone_lantern",
+  "category": "jtmcraft:redstone_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "A smaller variant of the jtmcraft redstone lantern. It can be placed standing or hanging, like a vanilla lantern."
+    }
+  ]
+}

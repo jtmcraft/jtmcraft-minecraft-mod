@@ -1,0 +1,11 @@
+{
+  "name": "Ode to Joy",
+  "icon": "jtmcraft:music_disc_ode_to_jo",
+  "category": "jtmcraft:music_discs_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use command /jtmcraft ode_to_joy to get a music disc of me playing Ode to Joy on a cheap ukulele."
+    }
+  ]
+}

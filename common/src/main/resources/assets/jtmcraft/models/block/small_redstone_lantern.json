@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_lantern",
+  "textures": {
+    "lantern": "jtmcraft:block/small_redstone_lantern"
+  }
+}

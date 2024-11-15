@@ -13,6 +13,7 @@ import net.minecraft.block.entity.BlockEntityType;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
@@ -21,7 +22,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class RedstoneLanternBlock extends Block implements BlockEntityProvider {
-    public static final BooleanProperty LIT = BooleanProperty.of("lit");
+    public static final BooleanProperty LIT = Properties.LIT;
     protected static final VoxelShape SHAPE = Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
 
     public RedstoneLanternBlock(Settings settings) {
@@ -62,13 +63,5 @@ public class RedstoneLanternBlock extends Block implements BlockEntityProvider {
         return !world.isClient ? createBlockEntityTicker(blockEntityType, BlockEntities.REDSTONE_LANTERN_BE_TYPE, (pLevel, pBlockPos, pBlockState, blockEntity) -> {
             blockEntity.tick((ServerWorld) pLevel, pBlockPos, pBlockState);
         }) : null;
-    }
-
-    public static int getLuminance(BlockState blockState) {
-        if (blockState == null) {
-            return 0;
-        }
-
-        return blockState.get(LIT) ? 15 : 0;
     }
 }
