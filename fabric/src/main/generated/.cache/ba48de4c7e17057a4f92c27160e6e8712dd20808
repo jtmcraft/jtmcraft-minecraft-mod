@@ -1,8 +1,12 @@
-// 1.20.1	2024-11-14T20:31:57.4191329	jtmcraft/Model Definitions
+// 1.20.1	2024-12-02T08:54:43.1689967	jtmcraft/Model Definitions
+fc72066002ddc99d940187135883b069bcda69c9 assets\jtmcraft\models\item\music_disc_block_party.json
 c27237d5187a290b451a40f1c212658659fc621e assets\jtmcraft\models\item\netherite_mining_tool.json
 313c3f09fc64f393e7cd3f4e35b3883fd74db195 assets\jtmcraft\models\item\golden_mining_tool.json
-3255418984751d2e9d09aa2ccd274adaf3c00720 assets\jtmcraft\models\item\stone_mining_tool.json
+002a0000d8f90c70addea4ff1f8099fa6312f2fd assets\jtmcraft\models\item\music_disc_run_and_jump.json
 e32a70d6a5ec7f0b443b62925267d0956b57b996 assets\jtmcraft\models\item\iron_mining_tool.json
+3255418984751d2e9d09aa2ccd274adaf3c00720 assets\jtmcraft\models\item\stone_mining_tool.json
 5e231f2422780747370bdd87f37aeb8a67b8f7ff assets\jtmcraft\models\item\music_disc_ode_to_joy.json
 087733b29671adc3d223ccc71c4f4f5c9babe908 assets\jtmcraft\models\item\wooden_mining_tool.json
+d157949a1072502043d9c495726aa43eac2962a3 assets\jtmcraft\models\item\music_disc_glad_youre_here.json
 dee4ac8a84f258ea5a40b31d09d32db263d6652c assets\jtmcraft\models\item\diamond_mining_tool.json
+b7e6c49f15ec000b542fb31f0ee82c0b9d0d007f assets\jtmcraft\models\item\music_disc_sunset.json

@@ -1,7 +1,6 @@
 package net.fasilsmp.mods.jtmcraft.fabric.blockentity;
 
 import net.fasilsmp.mods.jtmcraft.fabric.block.RedstoneLanternBlock;
-import net.fasilsmp.mods.jtmcraft.fabric.block.SmallRedstoneLanternBlock;
 import net.fasilsmp.mods.jtmcraft.fabric.blockstate.BlockStateUtil;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;

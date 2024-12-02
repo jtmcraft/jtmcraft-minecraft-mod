@@ -32,6 +32,22 @@ public class ItemsRegistration {
             new MusicDiscItem(15, SoundsRegistration.MUSIC_DISC_ODE_TO_JOY_SE,
                     new FabricItemSettings().maxCount(1), 30));
 
+    public static final Item MUSIC_DISC_SUNSET = registerItem("music_disc_sunset",
+            new MusicDiscItem(15, SoundsRegistration.MUSIC_DISC_SUNSET_SE,
+                    new FabricItemSettings().maxCount(1), 41));
+
+    public static final Item MUSIC_DISC_GLAD_YOURE_HERE = registerItem("music_disc_glad_youre_here",
+            new MusicDiscItem(15, SoundsRegistration.MUSIC_DISC_GLAD_YOURE_HERE_SE,
+                    new FabricItemSettings().maxCount(1), 38));
+
+    public static final Item MUSIC_DISC_BLOCK_PARTY = registerItem("music_disc_block_party",
+            new MusicDiscItem(15, SoundsRegistration.MUSIC_DISC_BLOCK_PARTY_SE,
+                    new FabricItemSettings().maxCount(1), 37));
+
+    public static final Item MUSIC_DISC_RUN_AND_JUMP = registerItem("music_disc_run_and_jump",
+            new MusicDiscItem(15, SoundsRegistration.MUSIC_DISC_RUN_AND_JUMP_SE,
+                    new FabricItemSettings().maxCount(1), 40));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Jtmcraft.id(name), item);
     }

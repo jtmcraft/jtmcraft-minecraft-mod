@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jtmcraft:item/music_disc_glad_youre_here"
+  }
+}

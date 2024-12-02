@@ -82,3 +82,30 @@ const options = {
 };
 
 PlayerEvents.loggedIn((event) => onPlayerLoggedIn(event, options));
+
+const LOGIC_GATES = [
+    "jtmcraft:logic_gate_and", "jtmcraft:logic_gate_nand",
+    "jtmcraft:logic_gate_or", "jtmcraft:logic_gate_nor",
+    "jtmcraft:logic_gate_xor", "jtmcraft:logic_gate_nxor"
+];
+
+function addRecipe(event, item, composition) {
+    event.shapeless(Item.of(item, 1), [composition]);
+}
+
+function addSmeltingAndBlasting(event, item, result) {
+    event.smelting(item, result);
+    event.blasting(item, result);
+}
+
+function addJtmcraftRecipes(event) {
+    LOGIC_GATES.forEach(logicGate => addRecipe(event, logicGate, "jtmcraft:logic_gate_blank"));
+    addSmeltingAndBlasting(event, "create:scorchia", "create:scoria");
+}
+
+function onServerRecipes(event) {
+    addJtmcraftRecipes(event);
+    console.log('jtmcraft onServerRecipes completed')
+}
+
+ServerEvents.recipes((event) => onServerRecipes(event));

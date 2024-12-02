@@ -1,6 +1,6 @@
-// 1.20.1	2024-11-14T20:31:57.4201336	jtmcraft/Recipes
-d8e1ad749f23bad75afaf6e7909aef973a3a56aa data\jtmcraft\advancements\recipes\tools\stone_mining_tool_.json
+// 1.20.1	2024-12-02T08:54:43.1695471	jtmcraft/Recipes
 ca3857c579d51fc65f6da13311b50ba70b8f7644 data\jtmcraft\recipes\logic_gate_and.json
+d8e1ad749f23bad75afaf6e7909aef973a3a56aa data\jtmcraft\advancements\recipes\tools\stone_mining_tool_.json
 1cc5aea56178a26b3987b992b8adcac0f40ced09 data\jtmcraft\advancements\recipes\tools\netherite_mining_tool_.json
 eec049d0785ef062d939a4df0066a8b23eab8297 data\jtmcraft\recipes\redstone_vertical_emitter.json
 320283c2d0dfa05e075474535aea22b7b3fe8073 data\jtmcraft\advancements\recipes\redstone\logic_gate_xor.json

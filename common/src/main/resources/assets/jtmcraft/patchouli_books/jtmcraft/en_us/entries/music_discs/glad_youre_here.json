@@ -1,0 +1,11 @@
+{
+  "name": "Ode to Joy",
+  "icon": "jtmcraft:music_disc_glad_youre_here",
+  "category": "jtmcraft:music_discs_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use command /jtmcraft glad_youre_here to get a music disc of my song Glad You're Here."
+    }
+  ]
+}

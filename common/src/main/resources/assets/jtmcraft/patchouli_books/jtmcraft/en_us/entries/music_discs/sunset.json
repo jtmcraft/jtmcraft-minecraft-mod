@@ -1,0 +1,11 @@
+{
+  "name": "Sunset",
+  "icon": "jtmcraft:music_disc_sunset",
+  "category": "jtmcraft:music_discs_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use command /jtmcraft sunset to get a music disc of my song Sunset."
+    }
+  ]
+}

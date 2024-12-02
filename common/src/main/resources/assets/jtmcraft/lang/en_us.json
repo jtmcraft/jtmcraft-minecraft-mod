@@ -21,8 +21,6 @@
   "block.jtmcraft.logic_gate_nxor": "Redstone NXOR Gate",
   "block.jtmcraft.logic_gate_nxor.tooltip": "If inputs are the same, then output is high",
 
-  "entity.minecraft.villager.redstonecleric": "Redstone Cleric",
-
   "item.jtmcraft.wooden_mining_tool": "Wooden Mining Tool",
   "item.jtmcraft.stone_mining_tool": "Stone Mining Tool",
   "item.jtmcraft.iron_mining_tool": "Iron Mining Tool",
@@ -33,7 +31,15 @@
   "item.jtmcraft.mining_tool.tooltip.shift": "A multi-tool combination of an axe, pickaxe, and shovel.",
 
   "item.jtmcraft.music_disc_ode_to_joy": "Ode to Joy Music Disc",
-  "item.jtmcraft.music_disc_ode_to_joy.desc": "jtmcraft",
+  "item.jtmcraft.music_disc_ode_to_joy.desc": "Ode to Joy",
+  "item.jtmcraft.music_disc_glad_youre_here": "Glad You're Here Music Disc",
+  "item.jtmcraft.music_disc_glad_youre_here.desc": "Glad You're Here",
+  "item.jtmcraft.music_disc_sunset": "Sunset Music Disc",
+  "item.jtmcraft.music_disc_sunset.desc": "Sunset",
+  "item.jtmcraft.music_disc_block_party": "Block Party Music Disc",
+  "item.jtmcraft.music_disc_block_party.desc": "Block Party",
+  "item.jtmcraft.music_disc_run_and_jump": "Run and Jump Music Disc",
+  "item.jtmcraft.music_disc_run_and_jump.desc": "Run and Jump",
 
   "itemgroup.jtmcraft_group": "jtmcraft",
 

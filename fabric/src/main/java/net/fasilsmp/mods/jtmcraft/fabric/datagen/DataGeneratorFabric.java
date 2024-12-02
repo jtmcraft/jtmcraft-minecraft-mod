@@ -15,6 +15,5 @@ public class DataGeneratorFabric implements DataGeneratorEntrypoint {
         pack.addProvider(JtmcraftModelProvider::new);
         pack.addProvider(JtmcraftRecipeProvider::new);
         pack.addProvider(JtmcraftPaintingVariantTagProvider::new);
-        pack.addProvider(JtmcraftPointOfInterestTagProvider::new);
     }
 }

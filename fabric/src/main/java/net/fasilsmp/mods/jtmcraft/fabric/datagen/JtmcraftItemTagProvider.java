@@ -6,8 +6,10 @@ import net.fasilsmp.mods.jtmcraft.fabric.registration.ItemsRegistration;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.registry.tag.TagBuilder;
 import net.minecraft.registry.tag.TagKey;
 
+import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 public class JtmcraftItemTagProvider extends FabricTagProvider.ItemTagProvider {
@@ -17,12 +19,27 @@ public class JtmcraftItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(ItemsRegistration.MUSIC_DISC_ODE_TO_JOY);
+        addMusicDiscsToTag();
+        addMiningToolsToTags();
+    }
 
-        addMiningToolToTag(ItemTags.AXES);
-        addMiningToolToTag(ItemTags.HOES);
-        addMiningToolToTag(ItemTags.PICKAXES);
-        addMiningToolToTag(ItemTags.SHOVELS);
+    private void addMusicDiscsToTag() {
+        List.of(
+                ItemsRegistration.MUSIC_DISC_ODE_TO_JOY,
+                ItemsRegistration.MUSIC_DISC_SUNSET,
+                ItemsRegistration.MUSIC_DISC_BLOCK_PARTY,
+                ItemsRegistration.MUSIC_DISC_GLAD_YOURE_HERE,
+                ItemsRegistration.MUSIC_DISC_RUN_AND_JUMP
+        ).forEach(item -> getOrCreateTagBuilder(ItemTags.MUSIC_DISCS).add(item));
+    }
+
+    private void addMiningToolsToTags() {
+        List.of(
+                ItemTags.AXES,
+                ItemTags.HOES,
+                ItemTags.PICKAXES,
+                ItemTags.SHOVELS
+        ).forEach(this::addMiningToolToTag);
     }
 
     private void addMiningToolToTag(TagKey<Item> tag) {

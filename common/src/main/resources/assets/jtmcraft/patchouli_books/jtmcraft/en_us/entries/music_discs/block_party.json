@@ -1,0 +1,11 @@
+{
+  "name": "Block Party",
+  "icon": "jtmcraft:music_disc_block_party",
+  "category": "jtmcraft:music_discs_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use command /jtmcraft sunset to get a music disc of my song Block Party."
+    }
+  ]
+}

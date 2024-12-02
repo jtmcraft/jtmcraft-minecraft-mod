@@ -39,7 +39,13 @@ public class ItemGroupRegistration {
             ItemsRegistration.NETHERITE_MINING_TOOL
     );
 
-    private static final List<Item> JTMCRAFT_DISCS = List.of(ItemsRegistration.MUSIC_DISC_ODE_TO_JOY);
+    private static final List<Item> JTMCRAFT_DISCS = List.of(
+            ItemsRegistration.MUSIC_DISC_ODE_TO_JOY,
+            ItemsRegistration.MUSIC_DISC_SUNSET,
+            ItemsRegistration.MUSIC_DISC_BLOCK_PARTY,
+            ItemsRegistration.MUSIC_DISC_GLAD_YOURE_HERE,
+            ItemsRegistration.MUSIC_DISC_RUN_AND_JUMP
+    );
 
     public static final ItemGroup JTMCRAFT_GROUP = Registry.register(Registries.ITEM_GROUP,
             Jtmcraft.id("jtmcraft_group"),

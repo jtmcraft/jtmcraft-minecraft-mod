@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "jtmcraft:music_disc_ode_to_joy"
+    "jtmcraft:music_disc_ode_to_joy",
+    "jtmcraft:music_disc_sunset",
+    "jtmcraft:music_disc_block_party",
+    "jtmcraft:music_disc_glad_youre_here",
+    "jtmcraft:music_disc_run_and_jump"
   ]
 }

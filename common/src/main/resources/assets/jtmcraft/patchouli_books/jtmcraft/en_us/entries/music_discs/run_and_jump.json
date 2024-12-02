@@ -1,0 +1,11 @@
+{
+  "name": "Run and Jump",
+  "icon": "jtmcraft:music_disc_run_and_jump",
+  "category": "jtmcraft:music_discs_category",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Use command /jtmcraft run_and_jump to get a music disc of my song Run and Jump."
+    }
+  ]
+}
